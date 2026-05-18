@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tecnologías web</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="flex flex-col h-screen">
+
+      <header class="bg-blue-600 text-white p-2 shrink-0 shadow-lg">
+        <h1> Encabezado de la página</h1>
+      </header>
+
+      <main class="bg-gray-200 p-4 flex-1 overflow-y-auto">
+        <div class="min-h-[200vh] bg-white p-8 rounded-2xl shadow shadow-gray-800">
+          <section class="bg-gray-200 rounded-2xl max-w-3xl mx-auto overflow-hidden border border-gray-400 shadow-lg">
+            <header class=" px-6 py-4 border-b border-gray-400 bg-gray-300">
+              <h2 class="text-xl text-gray-600 font-semibold">Frontend - Se ejecuta del lado del cliente</h2>
+            </header>
+            <div class="flex flex-col md:flex-row items-start gap-6 p-6">
+              <figure class="w-full">
+                <img class="w-full object-fix-contain  size-full rounded-xl" src="images/front-end.png" alt="Aqui esta la imagen">
+              </figure>
+              <article class="w-full">
+                <p class="text-gray-700 leading-relaxed"> El código del lado del cliente es el que se ejecuta en el navegador del usuario, en su dispositivo, en lugar de ejecutarse en un servidor. Suele incluir HTML, CSS y JavaScript, y se usa para mostrar la interfaz, responder a acciones y validar datos rápidamente.Frontend es la parte visible de una página web o aplicación, es decir, todo lo que el usuario ve y usa directamente: botones, menús, formularios, colores y diseño.Normalmente se construye con HTML, CSS y JavaScript, que juntos forman la interfaz y la interacción en el navegador.</p>
+              </article>
+            </div>
+            <footer class="px-6 py-4 border-t border-gray-400 bg-gray-300">
+              <h2>Pie de pagina</h2>
+            </footer>
+          </section>
+
+          <section class="bg-gray-200 rounded-2xl max-w-3xl mx-auto overflow-hidden border border-gray-400 shadow-lg my-2">
+            <header class=" px-6 py-4 border-b border-gray-400 bg-gray-300">
+              <h2 class="text-xl text-gray-600 font-semibold">Backend</h2>
+            </header>
+            <div class="flex flex-col md:flex-row items-start gap-6 p-6">
+              <figure class="w-full">
+                <img class="w-full object-fix-contain size-full rounded-xl" src="/public/images/back-end.png" alt="Aqui esta la imagen">
+              </figure>
+              <article class="w-full">
+                <p class="text-gray-700 leading-relaxed">Backend es la parte de una aplicación o sitio web que funciona en segundo plano y no la ve directamente el usuario. Ahí se procesa la lógica, se guardan y consultan datos, y se conecta con bases de datos y servidores. En simple: el frontend es lo que ves en pantalla y el backend es lo que hace que todo funcione por detrás. Por ejemplo, cuando inicias sesión, el backend verifica tus datos y devuelve la respuesta correcta. El código del lado del servidor es el que se ejecuta en el servidor, no en el navegador del usuario. Se usa para procesar datos, validar solicitudes, acceder a bases de datos y generar contenido dinámico antes de enviarlo al cliente.
+</p>
+              </article>
+            </div>
+            <footer class="px-6 py-4 border-t border-gray-400 bg-gray-300">
+              <h2>Pie de pagina</h2>
+            </footer>
+          </section>
+
+      <section class="bg-gray-200 rounded-2xl max-w-3xl mx-auto overflow-hidden border border-gray-400 shadow-lg my-2">
+            <header class=" px-6 py-4 border-b border-gray-400 bg-gray-300">
+              <h2 class="text-xl text-gray-600 font-semibold">Arquitectura cliente / servidor</h2>
+            </header>
+            <div class="flex flex-col md:flex-row items-start gap-6 p-6">
+              <figure class="w-full">
+                <img class="w-full object-fix-contain size-full rounded-xl" src="/public/images/backend-frontend.png" alt="Aqui esta la imagen">
+              </figure>
+              <article class="w-full">
+                <p class="text-gray-700 leading-relaxed"> El código del lado del cliente es el que se ejecuta en el navegador del usuario, en su dispositivo, en lugar de ejecutarse en un servidor. Suele incluir HTML, CSS y JavaScript, y se usa para mostrar la interfaz, responder a acciones y validar datos rápidamente.Frontend es la parte visible de una página web o aplicación, es decir, todo lo que el usuario ve y usa directamente: botones, menús, formularios, colores y diseño.Normalmente se construye con HTML, CSS y JavaScript, que juntos forman la interfaz y la interacción en el navegador.</p>
+              </article>
+            </div>
+            <footer class="px-6 py-4 border-t border-gray-400 bg-gray-300">
+              <h2>Pie de pagina</h2>
+            </footer>
+          </section>
+
+      <footer class="bg-gray-800 text-white p-2">
+        <h1>Pie de pagina</h1>
+      </footer>
+
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
