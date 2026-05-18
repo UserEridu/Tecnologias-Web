@@ -1,0 +1,23 @@
+PHP
+
+PHP es un lenguaje de programación de lado del servidor diseñado especialmente para desarrollo web. Se usa para crear páginas y aplicaciones dinámicas, procesar formularios, gestionar sesiones y conectarse con bases de datos.
+
+En simple: HTML muestra la estructura, CSS da estilo, JavaScript agrega interacción y PHP hace el trabajo por detrás en el servidor.
+
+Laravel
+
+Laravel es un framework de PHP para desarrollar aplicaciones web de forma más rápida, ordenada y segura. Incluye herramientas para tareas comunes como rutas, autenticación, bases de datos y estructura del proyecto.
+
+En simple: PHP es el lenguaje y Laravel es una base de trabajo que facilita construir aplicaciones con menos esfuerzo y mejor organización.
+
+Livewire
+
+Livewire es un framework de Laravel que permite crear interfaces dinámicas usando principalmente PHP y Blade, sin tener que escribir mucho JavaScript. Sirve para hacer componentes interactivos, como formularios, tablas o buscadores, que se actualizan sin recargar toda la página.
+
+En simple: si Laravel maneja la lógica del backend, Livewire te deja construir parte de la interacción del frontend desde PHP, haciendo más fácil crear apps web reactivas.
+
+NodeJS
+
+Node.js es un entorno de ejecución de JavaScript que permite correr código JavaScript fuera del navegador, normalmente en el servidor. Se usa para crear APIs, aplicaciones web y servicios rápidos y escalables.
+
+En simple: JavaScript ya no solo sirve para el navegador; con Node.js también puede usarse en backend.

@@ -1,0 +1,29 @@
+HTML
+
+HTML es el lenguaje de marcado que se usa para estructurar el contenido de una página web: títulos, párrafos, imágenes, enlaces y formularios. No es un lenguaje de programación; es la base sobre la que luego actúan CSS y JavaScript para dar estilo e interactividad.
+
+En pocas palabras, HTML le dice al navegador qué es cada parte de la página y cómo organizarla. Por ejemplo, una etiqueta como <h1> indica un título principal y <p> un párrafo.
+
+CSS
+
+CSS es un lenguaje de estilos que se usa para definir el aspecto visual de una página web: colores, tipografías, márgenes, tamaños y distribución de los elementos. Su nombre viene de Cascading Style Sheets, en español “Hojas de Estilo en Cascada”.
+
+En resumen: HTML estructura el contenido y CSS lo presenta visualmente. Por ejemplo, con CSS puedes hacer que un botón sea azul, más grande y con bordes redondeados.
+
+JS
+
+JavaScript es un lenguaje de programación que se usa para hacer páginas web interactivas y dinámicas. Permite, por ejemplo, responder a clics, validar formularios, mostrar animaciones y actualizar contenido sin recargar la página.
+
+En resumen: HTML estructura, CSS da estilo y JavaScript agrega comportamiento. También puede usarse en el servidor y en aplicaciones web modernas.
+
+Tailwind CSS
+
+Tailwind CSS es un framework de CSS basado en utilidades que te permite diseñar interfaces web usando clases pequeñas directamente en el HTML. En lugar de crear muchos estilos personalizados desde cero, aplicas clases como p-4, bg-blue-500 o rounded para construir el diseño más rápido.
+
+En simple: CSS tradicional suele organizar estilos en archivos separados, mientras que Tailwind te deja combinar utilidades para armar la interfaz con más rapidez y consistencia.
+
+React
+
+React es una biblioteca de JavaScript para construir interfaces de usuario interactivas, especialmente en aplicaciones web. Se centra en la parte visual y usa componentes reutilizables para organizar mejor la interfaz.
+
+En simple: con React puedes crear pantallas dinámicas más fácilmente, separando la interfaz en piezas pequeñas y reutilizables.

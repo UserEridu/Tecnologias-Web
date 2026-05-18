@@ -1,0 +1,21 @@
+Frontend
+
+El código del lado del cliente es el que se ejecuta en el navegador del usuario, en su dispositivo, en lugar de ejecutarse en un servidor. Suele incluir HTML, CSS y JavaScript, y se usa para mostrar la interfaz, responder a acciones y validar datos rápidamente.
+
+Frontend es la parte visible de una página web o aplicación, es decir, todo lo que el usuario ve y usa directamente: botones, menús, formularios, colores y diseño.
+
+Normalmente se construye con HTML, CSS y JavaScript, que juntos forman la interfaz y la interacción en el navegador.
+
+Backend
+
+Backend es la parte de una aplicación o sitio web que funciona en segundo plano y no la ve directamente el usuario. Ahí se procesa la lógica, se guardan y consultan datos, y se conecta con bases de datos y servidores.
+
+En simple: el frontend es lo que ves en pantalla y el backend es lo que hace que todo funcione por detrás. Por ejemplo, cuando inicias sesión, el backend verifica tus datos y devuelve la respuesta correcta.
+
+El código del lado del servidor es el que se ejecuta en el servidor, no en el navegador del usuario. Se usa para procesar datos, validar solicitudes, acceder a bases de datos y generar contenido dinámico antes de enviarlo al cliente.
+
+Arquitectura cliente / servidor
+
+La arquitectura cliente-servidor es un modelo en el que una parte, el cliente, hace solicitudes, y otra parte, el servidor, las procesa y responde. Se usa mucho en aplicaciones web, móviles y sistemas en red porque separa la interfaz de usuario de la lógica y los datos.
+
+En términos simples: el cliente pide algo, el servidor lo resuelve y devuelve una respuesta. Esa separación ayuda a organizar mejor el sistema, centralizar la información y atender a varios usuarios a la vez.
